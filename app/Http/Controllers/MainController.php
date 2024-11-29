@@ -146,13 +146,11 @@ class MainController extends Controller
     //     return $sourcePath . $name[0];
     // }
 
-    public function main(){
-        $ucapan = DB::table('ucapan')
-            ->orderBy('created_at', 'desc') // Urutkan berdasarkan created_at secara descending
-            ->get();
+    public function main(Request $request){
+        $nama=$request->input('nama');
             return Inertia::render('Dashboard', [
 
-                'ucapan'=>$ucapan
+                'nama'=>$nama
             ]);
         // dd($ucapan);
 

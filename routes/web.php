@@ -24,7 +24,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 // Route::get('/moveFile', [MainController::class, 'moveFile']);
-Route::get('/', [MainController::class, 'main'])->name('main');
+Route::get('/dicky-dian', [MainController::class, 'main'])->name('main');
 Route::get('/ucapan', [MainController::class, 'ucapan'])->name('ucapan');
 Route::post('/ucapan', [MainController::class, 'ucapanSave'])->name('ucapanSave');
 

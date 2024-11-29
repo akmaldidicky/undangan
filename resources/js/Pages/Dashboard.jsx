@@ -103,7 +103,7 @@ export default function Dashboard(props) {
                                     Kepada Yth.
                                 </p>
                                 <p className="text-white text-2xl text-center font-instrument self-start">
-                                    Teman-teman
+                                    {props.nama}
                                 </p>
                             </div>
                             <div className="grid justify-center content-start">
@@ -132,7 +132,7 @@ export default function Dashboard(props) {
                         <EventCountdown targetDate={"2025-01-04T08:00:00"} />
                         <Gallery />
                         <Reservasi />
-                        <Ucapan ucapan={props.ucapan} />
+                        <Ucapan />
                         <Closing />
                         {/* Kontrol Play/Pause */}
                         <button
