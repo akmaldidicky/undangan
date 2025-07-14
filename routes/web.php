@@ -13,7 +13,7 @@ use Inertia\Inertia;
 //         'laravelVersion' => Application::VERSION,
 //         'phpVersion' => PHP_VERSION,
 //     ]);
-// });
+// });http://localhost:8000/dicky-dian?nama=jancuk dan jancuk
 
 // Route::get('/', function () {
 //     return Inertia::render('Dashboard');

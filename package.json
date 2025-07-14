@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "start": "vite --host  192.168.96.146"
+        "start": "vite --host  192.168.100.251"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",

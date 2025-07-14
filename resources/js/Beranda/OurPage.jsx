@@ -85,11 +85,11 @@ export default function OurPage() {
                 </motion.div>
             </div>
             <div
-                className="flex justify-self-center overflow-hidden mt-2 h-[360px] w-[360px] bg-cover  rounded-md shadow-xl"
+                className="flex justify-self-center overflow-hidden mt-2 h-[360px] w-[360px] bg-cover mx-auto  rounded-md shadow-xl"
                 style={{ backgroundImage: `url(${profile})` }}
             >
                 <div className="flex justify-center h-32 w-full self-end">
-                    <div className="flex flex-col h-28 w-60 mb-2 justify-center rounded-xl border border-white backdrop-blur-sm">
+                    <div className="flex flex-col h-28 w-60 mb-2 justify-center bg-black rounded-xl border border-white bg-opacity-50">
                         <h4 className="text-center text-white font-bold">
                             Dian Prawesti Windardini, S.K.M
                         </h4>
@@ -127,11 +127,11 @@ export default function OurPage() {
                 style={{ backgroundImage: `url(${profile2})` }}
             >
                 <div className="flex justify-center h-32 w-full self-end">
-                    <div className="flex flex-col h-28 w-60 mb-2 justify-center rounded-xl border border-white backdrop-blur-sm">
-                        <h4 className="text-center text-black font-bold">
+                    <div className="flex flex-col h-28 w-60 mb-2 justify-center bg-black rounded-xl border border-white bg-opacity-50">
+                        <h4 className="text-center text-white font-bold">
                             Dicky Akmaldi, S.T
                         </h4>
-                        <h5 className="text-center mb-2 font-thin italic text-xs text-black">
+                        <h5 className="text-center mb-2 font-thin italic text-xs text-white">
                             Putra Bapak Supardi dan Ibu Tarlem
                         </h5>
                         <button className="mt-2 w-[130px] h-[24px] text-white text-sm bg-[#C6754D] self-center rounded-xl">

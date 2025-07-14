@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Gallery() {
     const gmbr1 = [
         "img/NEW/Gallery/BJK00223.JPG",
-        "img/NEW/Gallery/BJK00392.JPG",
+        "img/NEW/Gallery/BJK00399.JPG",
         "img/NEW/Gallery/BJK00543.JPG",
         "img/NEW/Gallery/BJK00843.JPG",
         "img/NEW/Gallery/BJK01161.JPG",
